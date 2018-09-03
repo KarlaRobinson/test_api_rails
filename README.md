@@ -1,6 +1,6 @@
 # README
 
-This App replicate an OOP REST API to process payments. Companies can create customers and charges.
+This App replicates an OOP REST API to process payments. Companies can create customers and charges.
 
 * Ruby version
 2.5.1
@@ -8,14 +8,11 @@ This App replicate an OOP REST API to process payments. Companies can create cus
 * Rails version
 5.1.1
 
-* How to run the test suite
-bundel exec rspec
+* Run the test suite: $bundel exec rspec
 
-* Deployment instructions
-Lift the railser server: 
-$rails s
+* Deploy by lifting the rails server: $rails s
 
-* Usage examples
+## Usage examples
 
 ### Create a Company
 curl -H "Content-type: application/json" \
