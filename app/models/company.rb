@@ -5,5 +5,5 @@ class Company < ApplicationRecord
 
   # validations
   validates_presence_of :name, :category
-  # validates_inclusion_of :activated, in: [true, false]
+  validates_inclusion_of :activated, in: [true, false]
 end

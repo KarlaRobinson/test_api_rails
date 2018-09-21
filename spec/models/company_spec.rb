@@ -9,5 +9,6 @@ RSpec.describe Company, type: :model do
   # ensure columns title and created_by are present before saving
   it { should validate_presence_of(:name) }
   it { should validate_presence_of(:category) }
-  it { should validate_presence_of(:activated) }
+  it { should validate_inclusion_of(:activated).
+    in_array([true, false])}
 end
